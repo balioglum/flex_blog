@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+html {
+  background-color: white;
+  font-size: 62.5%;
+  font-family: Dosis;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.container .content-area {
+  order: 2;
+  padding: 1rem;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.container .nav-area {
+  
+  order: 1;
+  padding: 1rem;
+  background-color: rgba(0, 128, 0, 0.3);
+}
+.container .extra-links {
+ 
+  order: 3;
+  padding: 1rem;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.container h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#main-page-percent .content-area {
+  width: 56.25%;
+}
+#main-page-percent .nav-area {
+  width: 25%;
+}
+#main-page-percent .extra-links {
+  width: 18.75%;
+}
+
+#main-page-flex .content-area {
+  -webkit-box-flex: 9;
+  -moz-box-flex: 9;
+  width: 56.25%;
+  -webkit-flex: 9;
+  -ms-flex: 9;
+  flex: 9;
+}
+#main-page-flex .nav-area {
+  -webkit-box-flex: 4;
+  -moz-box-flex: 4;
+  width: 25%;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+#main-page-flex .extra-links {
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  width: 18.75%;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+#main-page-flex-alt .content-area {
+  -webkit-box-flex: 9;
+  -moz-box-flex: 9;
+  width: 56.25%;
+  -webkit-flex: 9;
+  -ms-flex: 9;
+  flex: 9;
+  padding: 1rem 0;
+}
+#main-page-flex-alt .nav-area {
+  -webkit-box-flex: 4;
+  -moz-box-flex: 4;
+  width: 25%;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  padding: 1rem 0;
+}
+#main-page-flex-alt .extra-links {
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  width: 18.75%;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 1rem 0;
+}
+#main-page-flex-alt .content-area > *, #main-page-flex-alt .nav-area > *, #main-page-flex-alt .extra-links > * {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1.desc {
+  max-width: 960px;
+  margin: 2rem auto 0.5rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #b3b3b3;
+}
